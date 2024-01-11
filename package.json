@@ -1,11 +1,16 @@
 {
   "name": "pdf-puppeteer",
+  "engines": {
+    "node": "16"
+  },
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "docker:rebuild": "docker build --tag \"pdf-puppeteer\" .",
+    "docker:run": "docker run --name pdfpuppeteer  -p 3000:3000 pdf-puppeteer"
   },
   "repository": {
     "type": "git",
