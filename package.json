@@ -1,0 +1,23 @@
+{
+  "name": "pdf-puppeteer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikaru90/pdf-puppeteer.git"
+  },
+  "author": "Alex Bückner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hikaru90/pdf-puppeteer/issues"
+  },
+  "homepage": "https://github.com/hikaru90/pdf-puppeteer#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.7.0"
+  }
+}
